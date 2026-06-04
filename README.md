@@ -1,6 +1,6 @@
 # Computational Psychiatry: An Undergraduate Syllabus
 
-> **Curated by Peter Zhou** | PRAXIS — Computational Psychiatry at USC
+> **Curated by Peter Zhou** | PRAXIS (Psychiatry Research, Analytics & eXperimental Innovation Society) — Computational Psychiatry at USC
 >
 > *20 papers across 5 modules. Start at Module 1. Each paper builds on the last.*
 >
@@ -237,6 +237,6 @@ An editorial from Xiaosi Gu (your CPC host and #1 target PI) on the future of th
 
 This syllabus is a living document. If you think a paper should be added, replaced, or reordered, open an issue or submit a pull request.
 
-**Curated by Peter Zhou** — Founder, PRAXIS: Computational Psychiatry at USC | NIH Summer Intern, NIMH ETPB
+**Curated by Peter Zhou** — Founder, PRAXIS (Psychiatry Research, Analytics & eXperimental Innovation Society) at USC | NIH Summer Intern, NIMH ETPB
 
 *Last updated: June 2026*
