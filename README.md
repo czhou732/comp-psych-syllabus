@@ -1,3 +1,5 @@
+🌐 [English](README.md) | [中文](README_zh.md)
+
 # Computational Psychiatry: An Undergraduate Syllabus
 
 > **Curated by Peter Zhou** | PRAXIS (Psychiatry Research, Analytics & eXperimental Innovation Society) — Computational Psychiatry at USC
