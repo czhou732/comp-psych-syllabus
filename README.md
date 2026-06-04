@@ -16,7 +16,7 @@
 **Montague PR, Dolan RJ, Friston KJ, Dayan P.** (2012). Computational psychiatry. *Trends in Cognitive Sciences*, 16(1), 72–80.
 [DOI: 10.1016/j.tics.2011.11.018](https://doi.org/10.1016/j.tics.2011.11.018)
 
-The paper that named the field. Montague and colleagues argue that psychiatric disorders can be understood as "aberrant computations" across biological and cognitive scales. Introduces reinforcement learning and game-theoretic frameworks for modeling clinical behavior.
+The paper that formalized the field. While the term "computational psychiatry" appeared in earlier discussions, Montague and colleagues wrote the manifesto that defined its scope: psychiatric disorders understood as "aberrant computations" across biological and cognitive scales. Introduces reinforcement learning and game-theoretic frameworks for modeling clinical behavior.
 
 - **Read this first.** Everything else in the syllabus builds on this paper.
 - **Study questions:** What does it mean to call a psychiatric symptom an "aberrant computation"? How is this different from saying it's a "chemical imbalance"?
@@ -27,7 +27,7 @@ The paper that named the field. Montague and colleagues argue that psychiatric d
 **Huys QJM, Maia TV, Frank MJ.** (2016). Computational psychiatry as a bridge from neuroscience to clinical applications. *Nature Neuroscience*, 19, 404–413.
 [DOI: 10.1038/nn.4238](https://doi.org/10.1038/nn.4238)
 
-Four years after Montague et al., Huys, Maia, and Frank assess what's actually been accomplished. They map specific computational frameworks (RL, Bayesian inference, dynamical systems) to specific disorders and evaluate the field's progress toward clinical utility.
+Four years after Montague et al., Huys, Maia, and Frank assess what's actually been accomplished. They examine how three computational frameworks — RL, Bayesian inference, and dynamical systems — illuminate mechanisms across psychiatric disorders, while cautioning against simplistic one-to-one framework-to-disorder mappings.
 
 - **Study questions:** Which computational framework seems most mature for clinical use? Which disorder has the strongest computational evidence base?
 
@@ -47,7 +47,7 @@ A more technical companion to Huys et al. Adams and colleagues walk through the 
 **Stephan KE, Mathys C.** (2014). Computational approaches to psychiatry. *Current Opinion in Neurobiology*, 25, 85–92.
 [DOI: 10.1016/j.conb.2013.12.007](https://doi.org/10.1016/j.conb.2013.12.007)
 
-Introduces the concept of "computational assays" — standardized modeling procedures that extract clinically meaningful parameters from behavior. Describes the Hierarchical Gaussian Filter (HGF), a generative model that quantifies how individuals update beliefs under uncertainty.
+Introduces the concept of "computational assays" — standardized modeling procedures that extract clinically meaningful parameters from behavior. Situates the Hierarchical Gaussian Filter (HGF) as a prominent example of such an assay — a generative model that quantifies how individuals update beliefs under uncertainty (detailed in Mathys et al., 2014, *Frontiers in Human Neuroscience*).
 
 - **Study questions:** What is a "computational assay" and how is it different from a questionnaire? Why does hierarchical inference matter for understanding psychosis?
 
@@ -81,7 +81,7 @@ The definitive review on why depressed patients can't enjoy things. Pizzagalli i
 **Maia TV, Frank MJ.** (2011). From reinforcement learning models to psychiatric and neurological disorders. *Nature Neuroscience*, 14(2), 154–162.
 [DOI: 10.1038/nn.2723](https://doi.org/10.1038/nn.2723)
 
-Frank and Maia show how specific parameters in RL models (learning rate, exploration-exploitation tradeoff, Go/NoGo balance) map onto specific symptoms in Parkinson's disease, ADHD, schizophrenia, and addiction. The paper that convinced many neuroscientists that computational models have clinical relevance.
+Frank and Maia show how specific parameters in RL models (learning rate, Go/NoGo balance) map onto specific symptoms in Parkinson's disease, Tourette's syndrome, ADHD, schizophrenia, and addiction. The paper that convinced many neuroscientists that computational models have clinical relevance.
 
 - **Study questions:** How does dopamine medication change the learning rate in Parkinson's patients? What would a "high exploration" parameter look like clinically?
 
@@ -159,7 +159,7 @@ The methodological manifesto for neuroimaging biomarkers. Woo et al. lay out the
 **Drysdale AT, Grosenick L, Downar J, Dunlop K, Mansouri F, Meng Y, ... Liston C.** (2017). Resting-state connectivity biomarkers define neurophysiological subtypes of depression. *Nature Medicine*, 23(1), 28–38.
 [DOI: 10.1038/nm.4246](https://doi.org/10.1038/nm.4246)
 
-Drysdale et al. used resting-state fMRI from 1,188 patients to identify four neurophysiological subtypes of depression — each with distinct connectivity patterns and different responses to TMS treatment. A landmark paper in precision psychiatry, though subsequent replication efforts have been mixed.
+Drysdale et al. used resting-state fMRI from 1,188 participants (depression patients and healthy controls across discovery, training, and validation sets) to identify four neurophysiological subtypes of depression — each with distinct connectivity patterns and different responses to TMS treatment. A landmark paper in precision psychiatry, though subsequent replication efforts have been mixed (notably Dinga et al., 2019).
 
 - **Study questions:** Why is it important that depression might have subtypes? What are the risks of building clinical decisions on neuroimaging clusters that may not replicate?
 
@@ -179,7 +179,7 @@ A comprehensive and honest review of where ML has succeeded and failed in psychi
 **Torous J, Kiang MV, Lorme J, Onnela JP.** (2016). New tools for new research in psychiatry: a scalable and customizable platform to empower data-driven smartphone research. *JMIR Mental Health*, 3(2), e16.
 [DOI: 10.2196/mental.5165](https://doi.org/10.2196/mental.5165)
 
-Introduces the concept of "digital phenotyping" — using passive smartphone data (GPS, accelerometer, call/text logs, screen time) to continuously monitor psychiatric symptoms. Torous et al. present the mindLAMP platform and discuss how digital data streams complement traditional clinical assessment.
+A foundational paper in "digital phenotyping" — using passive smartphone data (GPS, accelerometer, call/text logs, screen time) to continuously monitor psychiatric symptoms. Torous et al. present a scalable, customizable smartphone research platform and discuss how digital data streams complement traditional clinical assessment.
 
 - **Study questions:** What behavioral signals can a smartphone capture that a clinician can't? What are the privacy implications of continuous psychiatric monitoring?
 
@@ -236,20 +236,49 @@ A perspective from Xiaosi Gu on the next frontier: using intracranial recordings
 - **An Introduction to Model-Based Cognitive Neuroscience** — Forstmann & Wagenmakers, eds. (2015). Springer. For the mathematical foundations.
 
 ### Online Courses
-- **Neuromatch Academy — Computational Neuroscience** (free, annual summer school)
-- **Coursera — Computational Neuroscience** (University of Washington)
+- **[Neuromatch Academy — Computational Neuroscience](https://neuromatch.io/)** (free, annual summer school)
+- **[Coursera — Computational Neuroscience](https://www.coursera.org/learn/computational-neuroscience)** (University of Washington)
 - **OITE/FAES courses at NIH** (for trainees on the Bethesda campus)
 
 ### Conferences
-- **Computational Psychiatry Conference (CPC)** — cpconf.org
-- **Society for Biological Psychiatry (SOBP)** — annual meeting
-- **Society for Neuroscience (SfN)** — nanosymposia in computational psychiatry track
+- **[Computational Psychiatry Conference (CPC)](https://www.cpconf.org/)** — annual, hosted by Xiaosi Gu's group
+- **[Society for Biological Psychiatry (SOBP)](https://sobp.org/)** — annual meeting
+- **[Society for Neuroscience (SfN)](https://www.sfn.org/)** — nanosymposia in computational psychiatry track
 
 ### Key Journals
-- *Computational Psychiatry* (Editor-in-Chief: Xiaosi Gu)
-- *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*
-- *Nature Neuroscience*
-- *PNAS*
+- [*Computational Psychiatry*](https://computationalpsychiatry.org/) (Editor-in-Chief: Xiaosi Gu)
+- [*Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*](https://www.journals.elsevier.com/biological-psychiatry-cognitive-neuroscience-and-neuroimaging)
+- [*Nature Neuroscience*](https://www.nature.com/neuro/)
+- [*PNAS*](https://www.pnas.org/)
+
+### Open Datasets
+
+Many papers in this syllabus use publicly available data. These are the key datasets for hands-on computational psychiatry work:
+
+| Dataset | Description | Access |
+|---------|-------------|--------|
+| **[DAIC-WOZ](https://dcapswoz.ict.usc.edu/)** | 189 clinical interviews with PHQ-8 depression scores + audio/video/transcripts | Request access (USC ICT) |
+| **[ds000030 (UCLA CNP)](https://openneuro.org/datasets/ds000030)** | 272 subjects, resting-state + task fMRI, schizophrenia/bipolar/ADHD + healthy controls | Open (OpenNeuro) |
+| **[OpenNeuro](https://openneuro.org/)** | 900+ neuroimaging datasets (fMRI, EEG, MEG) in BIDS format | Open |
+| **[UK Biobank](https://www.ukbiobank.ac.uk/)** | 500K participants, brain imaging + genetics + health records | Application required |
+| **[HCP (Human Connectome Project)](https://www.humanconnectome.org/)** | 1,200 subjects, high-resolution fMRI + diffusion + behavioral data | Open (registration) |
+| **[ABCD Study](https://abcdstudy.org/)** | 12,000 adolescents, longitudinal brain + behavioral + environmental data | NDA application |
+| **[PsychENCODE](https://www.psychencode.org/)** | Transcriptomic/epigenomic data from human brains — psychiatric vs. control | Open |
+| **[ENIGMA Consortium](https://enigma.ini.usc.edu/)** | Meta-analytic neuroimaging across 50+ disorders | Consortium membership |
+
+### Computational Tools & Software
+
+| Tool | Use Case | Link |
+|------|----------|------|
+| **[hBayesDM](https://ccs-lab.github.io/hBayesDM/)** | Hierarchical Bayesian modeling of decision-making tasks (R/Python) | Open source |
+| **[HGF Toolbox (TAPAS)](https://www.tnu.ethz.ch/en/software/tapas)** | Hierarchical Gaussian Filter for Bayesian learning models (MATLAB) | Open source |
+| **[Neuromatch Academy materials](https://compneuro.neuromatch.io/)** | Full computational neuroscience curriculum with code tutorials | Open |
+| **[fMRIPrep](https://fmriprep.org/)** | Standardized fMRI preprocessing pipeline | Open source |
+| **[MRIQC](https://mriqc.readthedocs.io/)** | Automated quality control for MRI data | Open source |
+| **[Nilearn](https://nilearn.github.io/)** | Machine learning for neuroimaging in Python | Open source |
+| **[brms](https://paul-buerkner.github.io/brms/)** | Bayesian regression modeling in R | Open source |
+| **[Stan](https://mc-stan.org/)** | Probabilistic programming for Bayesian modeling | Open source |
+| **[mindLAMP](https://www.digitalpsych.org/lamp)** | Digital phenotyping platform for smartphone-based psychiatric research | Open source |
 
 ---
 
