@@ -255,30 +255,95 @@ A perspective from Xiaosi Gu on the next frontier: using intracranial recordings
 
 Many papers in this syllabus use publicly available data. These are the key datasets for hands-on computational psychiatry work:
 
+#### Psychiatric & Clinical
+
 | Dataset | Description | Access |
 |---------|-------------|--------|
 | **[DAIC-WOZ](https://dcapswoz.ict.usc.edu/)** | 189 clinical interviews with PHQ-8 depression scores + audio/video/transcripts | Request access (USC ICT) |
+| **[STAR*D](https://www.nimh.nih.gov/funding/clinical-research/practical/stard)** | 4,041 MDD patients, sequential treatment outcomes — the largest antidepressant trial ever | NDA application |
+| **[COBRE](http://fcon_1000.projects.nitrc.org/indi/retro/cobre.html)** | 72 schizophrenia + 75 healthy controls, resting-state fMRI + clinical assessments | Open |
 | **[ds000030 (UCLA CNP)](https://openneuro.org/datasets/ds000030)** | 272 subjects, resting-state + task fMRI, schizophrenia/bipolar/ADHD + healthy controls | Open (OpenNeuro) |
+| **[PhysioNet](https://physionet.org/)** | Physiological signal databases (EEG, ECG, EMG) + clinical datasets (MIMIC-IV for ICU) | Open (some require credentialing) |
+
+#### Brain Imaging Repositories
+
+| Dataset | Description | Access |
+|---------|-------------|--------|
 | **[OpenNeuro](https://openneuro.org/)** | 900+ neuroimaging datasets (fMRI, EEG, MEG) in BIDS format | Open |
-| **[UK Biobank](https://www.ukbiobank.ac.uk/)** | 500K participants, brain imaging + genetics + health records | Application required |
 | **[HCP (Human Connectome Project)](https://www.humanconnectome.org/)** | 1,200 subjects, high-resolution fMRI + diffusion + behavioral data | Open (registration) |
-| **[ABCD Study](https://abcdstudy.org/)** | 12,000 adolescents, longitudinal brain + behavioral + environmental data | NDA application |
-| **[PsychENCODE](https://www.psychencode.org/)** | Transcriptomic/epigenomic data from human brains — psychiatric vs. control | Open |
+| **[UK Biobank](https://www.ukbiobank.ac.uk/)** | 500K participants, brain imaging + genetics + health records | Application required |
+| **[NeuroVault](https://neurovault.org/)** | Repository of unthresholded statistical brain maps from published studies | Open |
+| **[NeuroSynth](https://neurosynth.org/)** | Automated meta-analysis platform — 15K+ studies, coordinate-based maps by term | Open |
 | **[ENIGMA Consortium](https://enigma.ini.usc.edu/)** | Meta-analytic neuroimaging across 50+ disorders | Consortium membership |
 
+#### Developmental & Longitudinal
+
+| Dataset | Description | Access |
+|---------|-------------|--------|
+| **[ABCD Study](https://abcdstudy.org/)** | 12,000 adolescents, longitudinal brain + behavioral + environmental data | NDA application |
+| **[Philadelphia Neurodevelopmental Cohort (PNC)](https://www.med.upenn.edu/bbl/philadelphianeurodevelopmentalcohort.html)** | 9,498 youth (8–21), neuroimaging + genetics + cognitive + clinical phenotyping | dbGaP application |
+| **[Healthy Brain Network](https://healthybrainnetwork.org/)** | 10,000 children (5–21), EEG + MRI + behavioral + clinical + digital phenotyping | Open (registration) |
+
+#### Genomics & Transcriptomics
+
+| Dataset | Description | Access |
+|---------|-------------|--------|
+| **[PsychENCODE](https://www.psychencode.org/)** | Transcriptomic/epigenomic data from human brains — psychiatric vs. control | Open |
+| **[All of Us (NIH)](https://allofus.nih.gov/)** | 1M+ diverse participants, genomics + EHR + wearables + surveys | Researcher Workbench application |
+| **[NIMH Data Archive (NDA)](https://nda.nih.gov/)** | Central repository for all NIMH-funded research data (imaging, genomics, clinical) | Application required |
+
 ### Computational Tools & Software
+
+#### Modeling & Statistics
 
 | Tool | Use Case | Link |
 |------|----------|------|
 | **[hBayesDM](https://ccs-lab.github.io/hBayesDM/)** | Hierarchical Bayesian modeling of decision-making tasks (R/Python) | Open source |
 | **[HGF Toolbox (TAPAS)](https://www.tnu.ethz.ch/en/software/tapas)** | Hierarchical Gaussian Filter for Bayesian learning models (MATLAB) | Open source |
-| **[Neuromatch Academy materials](https://compneuro.neuromatch.io/)** | Full computational neuroscience curriculum with code tutorials | Open |
+| **[VBA Toolbox](https://mbb-team.github.io/VBA-toolbox/)** | Variational Bayesian Analysis — model inversion, comparison, simulation (MATLAB) | Open source |
+| **[Stan](https://mc-stan.org/)** | Probabilistic programming for Bayesian modeling (R/Python/CLI) | Open source |
+| **[PyMC](https://www.pymc.io/)** | Probabilistic programming in Python — MCMC + variational inference | Open source |
+| **[brms](https://paul-buerkner.github.io/brms/)** | Bayesian regression modeling in R (Stan backend) | Open source |
+| **[scikit-learn](https://scikit-learn.org/)** | Machine learning library in Python — classification, regression, clustering | Open source |
+
+#### Neuroimaging
+
+| Tool | Use Case | Link |
+|------|----------|------|
 | **[fMRIPrep](https://fmriprep.org/)** | Standardized fMRI preprocessing pipeline | Open source |
 | **[MRIQC](https://mriqc.readthedocs.io/)** | Automated quality control for MRI data | Open source |
 | **[Nilearn](https://nilearn.github.io/)** | Machine learning for neuroimaging in Python | Open source |
-| **[brms](https://paul-buerkner.github.io/brms/)** | Bayesian regression modeling in R | Open source |
-| **[Stan](https://mc-stan.org/)** | Probabilistic programming for Bayesian modeling | Open source |
+| **[FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)** | Cortical surface reconstruction + subcortical segmentation | Open source |
+| **[FSL](https://fsl.fmrib.ox.ac.uk/)** | Full fMRI/diffusion analysis suite (FEAT, MELODIC, TBSS) | Open source |
+| **[SPM](https://www.fil.ion.ucl.ac.uk/spm/)** | Statistical Parametric Mapping — voxelwise GLM, DCM, VBM (MATLAB) | Open source |
+| **[AFNI](https://afni.nimh.nih.gov/)** | Neuroimaging analysis suite from NIMH — preprocessing, stats, visualization | Open source |
+| **[NiMARE](https://nimare.readthedocs.io/)** | Neuroimaging meta-analysis in Python (ALE, MKDA, BrainMap) | Open source |
+
+#### EEG & Electrophysiology
+
+| Tool | Use Case | Link |
+|------|----------|------|
+| **[MNE-Python](https://mne.tools/)** | EEG/MEG analysis — preprocessing, source localization, time-frequency, connectivity | Open source |
+| **[EEGLAB](https://sccn.ucsd.edu/eeglab/)** | EEG analysis toolbox with ICA, time-frequency, and plugin ecosystem (MATLAB) | Open source |
+
+#### Behavioral Experiments & Data Collection
+
+| Tool | Use Case | Link |
+|------|----------|------|
+| **[PsychoPy](https://www.psychopy.org/)** | Build behavioral experiments in Python — timing-precise, fMRI/EEG compatible | Open source |
+| **[jsPsych](https://www.jspsych.org/)** | Run behavioral experiments in the browser — online data collection | Open source |
+| **[Prolific](https://www.prolific.com/)** | Recruit diverse, vetted participants for online behavioral studies | Paid (per participant) |
+| **[Gorilla](https://gorilla.sc/)** | No-code online experiment builder + hosting | Free for academics |
 | **[mindLAMP](https://www.digitalpsych.org/lamp)** | Digital phenotyping platform for smartphone-based psychiatric research | Open source |
+
+#### Learning Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| **[Neuromatch Academy](https://compneuro.neuromatch.io/)** | Full computational neuroscience curriculum with code tutorials | Open |
+| **[Hitchhiker's Guide to fMRI](https://andysbrainbook.readthedocs.io/)** | Practical fMRI analysis tutorials (FSL, SPM, FreeSurfer, AFNI) | Open |
+| **[Computational Models of Behavior (Wilson & Collins)](https://doi.org/10.1038/s41562-019-0732-0)** | Tutorial paper on fitting RL models — essential methods primer | Open access |
+| **[Bayesian Cognitive Modeling](https://bayesmodels.com/)** | Lee & Wagenmakers textbook companion — code + exercises | Open |
 
 ---
 
