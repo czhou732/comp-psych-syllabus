@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this syllabus, please cite it as below."
+type: dataset
+title: "Computational Psychiatry: An Undergraduate Syllabus"
+abstract: "A curated 20-paper, 5-module undergraduate curriculum for computational psychiatry. Bilingual (English/中文). Developed by PRAXIS at USC."
+authors:
+  - family-names: Zhou
+    given-names: Peter
+    orcid: ""
+    affiliation: "University of Southern California; PRAXIS (Psychiatry Research, Analytics & eXperimental Innovation Society)"
+repository-code: "https://github.com/comp-psych/comp-psych-syllabus"
+url: "https://github.com/comp-psych/comp-psych-syllabus"
+keywords:
+  - computational psychiatry
+  - reinforcement learning
+  - Bayesian inference
+  - undergraduate education
+  - open science
+  - syllabus
+license: CC-BY-4.0
+date-released: "2026-06-03"
