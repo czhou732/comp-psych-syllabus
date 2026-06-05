@@ -2,6 +2,8 @@
 
 # Computational Psychiatry: An Undergraduate Syllabus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20559875.svg)](https://doi.org/10.5281/zenodo.20559875)
+
 > **Curated by Peter Zhou** | PRAXIS (Psychiatry Research, Analytics & eXperimental Innovation Society) — Computational Psychiatry at USC
 >
 > *20 papers across 5 modules. Start at Module 1. Each paper builds on the last.*
